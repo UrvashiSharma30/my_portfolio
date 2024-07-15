@@ -17,13 +17,13 @@ const Experience = () => {
             <div className='experience-container'>
 
                 <div className='tools-used'>
-                    <div className='icons'><img src={icon1} className='icon-image'/> </div>
-                    <div className='icons'><img src={icon2} className='icon-image'/> </div>
-                    <div className='icons'><img src={icon3} className='icon-image'/> </div>
-                    <div className='icons'><img src={icon4} className='icon-image'/> </div>
-                    <div className='icons'><img src={icon5} className='icon-image' /> </div>
-                    <div className='icons'><img src={icon6} className='icon-image'/> </div>
-                    <div className='icons'><img src={icon7} className='icon-image'/> </div>
+                    <div className='icons'><img src={icon1} className='icon-image' alt=''/> </div>
+                    <div className='icons'><img src={icon2} className='icon-image' alt=''/> </div>
+                    <div className='icons'><img src={icon3} className='icon-image' alt=''/> </div>
+                    <div className='icons'><img src={icon4} className='icon-image'alt=''/> </div>
+                    <div className='icons'><img src={icon5} className='icon-image' alt='' /> </div>
+                    <div className='icons'><img src={icon6} className='icon-image' alt=''/> </div>
+                    <div className='icons'><img src={icon7} className='icon-image' alt=''/> </div>
 
                 </div>
                 <div className="work-experience">
