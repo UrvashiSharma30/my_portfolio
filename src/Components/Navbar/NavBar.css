@@ -20,6 +20,10 @@
     font-size: 2rem;
     font-weight: 600;
     text-align: left;
+    background: transparent;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
 }
 .logo{
     width: 4rem;

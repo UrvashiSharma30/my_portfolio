@@ -7,26 +7,29 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
     <>
       <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
         <div className='mobile-menu-container'>
-          <a className='portfolio'>Portfolio</a>
+          {/* Use a button if this is not a navigable link */}
+          <button className='portfolio' onClick={() => window.location.href = '#portfolio'}>Portfolio</button>
           <ul>
             <li>
-              <a className='menu-item' href="#profile-summary">Home</a>
+              <a href="#profile-summary" className='menu-item'>Home</a>
             </li>
             <li>
-              <a className='menu-item' href="#skills">Skills</a>
+              <a href="#skills" className='menu-item'>Skills</a>
             </li>
             <li>
-              <a className='menu-item' href="#experience">Work Experience</a>
+              <a href="#experience" className='menu-item'>Work Experience</a>
             </li>
             <li>
-              <a className='menu-item' href="#projects">Projects</a>
+              <a href="#projects" className='menu-item'>Projects</a>
             </li>
             <li>
-              <a className='menu-item' href="#contact-me">Contact Me</a>
+              <a href="#contact-me" className='menu-item'>Contact Me</a>
             </li>
-            <a href={CV} download>
-              <button className='resume-dowmload-button'>Resume</button>
-            </a>
+            <li>
+              <a href={CV} download>
+                <button className='resume-dowmload-button'>Resume</button>
+              </a>
+            </li>
           </ul>
         </div>
       </div>

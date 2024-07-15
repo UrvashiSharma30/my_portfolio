@@ -16,7 +16,9 @@ const NavBar = () => {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <a className='portfolio'>Portfolio</a>
+          <button className='portfolio' onClick={() => window.location.href = '#portfolio'}>
+            Portfolio
+          </button>
           <ul>
             <li>
               <a className='menu-item' href="#profile-summary">About</a>
@@ -33,9 +35,11 @@ const NavBar = () => {
             <li>
               <a className='menu-item' href="#contact-me">Contact Me</a>
             </li>
-            <a href={CV} download>
-              <button className='resume-dowmload-button'>Resume</button>
-            </a>
+            <li>
+              <a href={CV} download>
+                <button className='resume-dowmload-button'>Resume</button>
+              </a>
+            </li>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>
             {openMenu ? <IoMdClose /> : <IoMenu />}

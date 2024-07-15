@@ -17,13 +17,13 @@ const Experience = () => {
             <div className='experience-container'>
 
                 <div className='tools-used'>
-                    <div className='icons'><img src={icon1} className='icon-image' alt=''/> </div>
-                    <div className='icons'><img src={icon2} className='icon-image' alt=''/> </div>
-                    <div className='icons'><img src={icon3} className='icon-image' alt=''/> </div>
-                    <div className='icons'><img src={icon4} className='icon-image'alt=''/> </div>
-                    <div className='icons'><img src={icon5} className='icon-image' alt='' /> </div>
-                    <div className='icons'><img src={icon6} className='icon-image' alt=''/> </div>
-                    <div className='icons'><img src={icon7} className='icon-image' alt=''/> </div>
+                    <div className='icons'><img src={icon1} className='icon-image' alt='reactjs'/> </div>
+                    <div className='icons'><img src={icon2} className='icon-image' alt='typescript'/> </div>
+                    <div className='icons'><img src={icon3} className='icon-image' alt='css'/> </div>
+                    <div className='icons'><img src={icon4} className='icon-image'alt='reduxsaga'/> </div>
+                    <div className='icons'><img src={icon5} className='icon-image' alt='git' /> </div>
+                    <div className='icons'><img src={icon6} className='icon-image' alt='trello'/> </div>
+                    <div className='icons'><img src={icon7} className='icon-image' alt='figma'/> </div>
 
                 </div>
                 <div className="work-experience">

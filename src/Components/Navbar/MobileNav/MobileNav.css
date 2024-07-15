@@ -41,6 +41,16 @@
     margin-left: -2rem;
 }
 
+.mobile-menu-container .portfolio{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+        background: transparent;
+        color: #ffff;
+        border: none;
+        cursor: pointer;
+}
+
 @media screen and (max-width :768px) {
     .mobile-menu{
         display: block;
