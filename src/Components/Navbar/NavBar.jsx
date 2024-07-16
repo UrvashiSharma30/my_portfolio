@@ -3,7 +3,7 @@ import './NavBar.css';
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import MobileNav from './MobileNav/MobileNav';
-import CV from '../../assets/CV.pdf';
+import CV from '../../assets/Urvashi_Sharma_Resume_wd_.pdf';
 
 const NavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
