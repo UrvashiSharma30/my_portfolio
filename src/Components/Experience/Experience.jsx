@@ -12,44 +12,39 @@ import icon7 from '../../assets/images/figma.png'
 
 const Experience = () => {
     return (
-        <>
-            <h5>Work Experience</h5>
+        <section className='experience' id='experience'>
+            <span class="section-title">Experience </span>
             <div className='experience-container'>
-
-                <div className='tools-used'>
-                    <div className='icons'><img src={icon1} className='icon-image' alt='reactjs'/> </div>
-                    <div className='icons'><img src={icon2} className='icon-image' alt='typescript'/> </div>
-                    <div className='icons'><img src={icon3} className='icon-image' alt='css'/> </div>
-                    <div className='icons'><img src={icon4} className='icon-image'alt='reduxsaga'/> </div>
-                    <div className='icons'><img src={icon5} className='icon-image' alt='git' /> </div>
-                    <div className='icons'><img src={icon6} className='icon-image' alt='trello'/> </div>
-                    <div className='icons'><img src={icon7} className='icon-image' alt='figma'/> </div>
-
+                <div className='tools-container'>
+                    <div className='tools-used'>
+                        <div className='icons'><img src={icon1} className='icon-image' alt='reactjs' /> </div>
+                        <div className='icons'><img src={icon2} className='icon-image' alt='typescript' /> </div>
+                        <div className='icons'><img src={icon3} className='icon-image' alt='css' /> </div>
+                        <div className='icons'><img src={icon4} className='icon-image' alt='reduxsaga' /> </div>
+                        <div className='icons'><img src={icon5} className='icon-image' alt='git' /> </div>
+                        <div className='icons'><img src={icon6} className='icon-image' alt='trello' /> </div>
+                        <div className='icons'><img src={icon7} className='icon-image' alt='figma' /> </div>
+                    </div>
                 </div>
                 <div className="work-experience">
                     <div className="experience-card">
                         <h3>Graduate Engineering Intern at Nineleaps</h3>
                         <p className="date">Feb 2023 - Oct 2023</p>
                         <ul>
-                            <li>Developed and implemented a highly responsive user interface for a React-Native mobile application using React
-                                Native, REDUX-SAGA, typescript and CSS; enhanced user experience resulting in a 40% in user engagement.</li>
+                            <li>Developed an Expense Management mobile application using React Native, REDUX-SAGA, typescript and CSS.</li>
                             <li>Adhered to well-established coding style guides like TSLint and Prettier, using meaningful variable and function
-                                names to maintain code consistency and readability, achieving 100% compliance with style guidelines.</li>
+                                names to maintain code consistency and readability.</li>
                             <li>Conducted rigorous unit testing with Jest for bug identification and resolution, ensuring the app’s reliability and
-                                stability with a 95% bug resolution rate. Executed SonarQube testing to uphold code quality standards with a
-                                90% code quality score.</li>
-                            <li> Employed Git for change tracking and effective team collaboration, contributing to a 30% improvement in
-                                development efficiency. Collaborated closely with the team on the development of an expense management
+                                stability.And also executed SonarQube testing .</li>
+                            <li> Employed Git for change tracking and effective team collaboration.  Collaborated closely with the team on the development of an expense management
                                 application.
                             </li>
-                            <li> Maintained comprehensive project documentation through Trello board, leading to a 25% increase in project
-                                transparency and tracking. Implemented Agile methodologies throughout the project development process,
-                                resulting in a 20% reduction in development time.</li>
+                            <li> Maintained comprehensive project documentation through Trello board. Implemented Agile methodologies throughout.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </>
+        </section>
 
 
     )

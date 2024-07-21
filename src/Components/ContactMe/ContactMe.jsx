@@ -6,8 +6,8 @@ import ContactForm from './ContactForm/ContactForm';
 
 const ContactMe = () => {
     return (
-        <section className='contact-container'>
-            <h5>Contact Me</h5>
+        <section className='contact-container' id='contact-me'>
+            <span class="section-title">Contact Me</span>
             <div className='contact-content'>
                 <div style={{ flex: 1 }} className='contact-details'>
                     <div className='social'>
@@ -29,7 +29,7 @@ const ContactMe = () => {
                         <a href='https://www.linkedin.com/in/urvashi-sharma-09036a1ba/' target="_blank" rel="noopener noreferrer">LinkedIn/Urvashi-Sharma</a>
                     </div>
                 </div>
-                <div style={{ flex: 1 }}>
+                <div style={{ flex: 1 }} className='contactform'>
                     <ContactForm/>
                 </div>
             </div>

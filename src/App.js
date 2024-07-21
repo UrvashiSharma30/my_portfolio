@@ -10,20 +10,10 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <div className='container'>
-        <div id="profile-summary">
-          <ProfileSummary />
-        </div>
-        <div id="skills">
-          <Skills />
-        </div>
-        <div id="experience">
-          <Experience />
-        </div>
-        <div id="contact-me">
-          <ContactMe />
-        </div>
-      </div>
+      <ProfileSummary />
+      <Skills />
+      <Experience />
+      <ContactMe />
       <Footer />
     </>
   );

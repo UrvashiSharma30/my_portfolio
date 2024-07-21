@@ -1,40 +1,44 @@
 .contact-container {
-    margin: 4rem 0;
-    position: relative;
+    padding: 8rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.contact-container h5 {
-    font-size: 2.25rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
-    margin-left: 3rem;
+.section-title {
+    color: #ffff;
+    font-size: 1.5rem;
+    padding: 2rem;
+
 }
 
 .contact-content {
     display: flex;
+    flex-direction: row;
     gap: 3rem;
+    align-items: center;
+    padding: 0 1.5rem;
 }
 
 .contact-details {
     display: flex;
     flex-direction: column;
-    padding-left: 3rem;
-    gap:1rem;
+    gap: 1rem;
+
 }
 
 
 
 .contact-details .social {
+    height: 6rem;
     display: flex;
     flex-direction: row;
-    height: 7rem;
     align-items: center;
     gap: 1rem;
     background: #130f2a;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
-    margin-bottom: 2rem;
 }
 
 .contact-details .social .icon {
@@ -45,48 +49,99 @@
     justify-content: center;
     border-radius: 0.5rem;
     background: #3d3072;
-    margin-bottom: 0.8rem;
     cursor: pointer;
 }
+
 .contact-details .emailIcon,
 .contact-details .linkedinIcon,
-.contact-details .githubIcon{
-    font-size: 3.5rem;
+.contact-details .githubIcon {
+    font-size: 2.75rem;
     cursor: pointer;
 }
-.contact-details .social a{
+
+.contact-details .social a {
     color: #ffff;
     line-height: 1rem;
     cursor: pointer;
 }
 
-.contact-details .social a:hover{
+.contact-details .social a:hover {
     color: #6751b9;
 }
-.contact-details .social .icon:hover{
+
+.contact-details .social .icon:hover {
     background: transparent;
-    border:1px solid #3d3072;
+    border: 1px solid #3d3072;
     color: #3d3072;
 }
 
 @media screen and (max-width:768px) {
-    .contact-content{
+    .contact-content {
         flex-direction: column-reverse;
-
-    
     }
 
-    .contact-container h5{
-        font-size: 1.75rem;
-        margin-bottom: 0.5rem;
-        margin-left: 1.75rem;
-
+    .contact-container .section-title {
+        font-size: 1.5rem;
+        margin: 0;
     }
     .contact-details {
-        gap: 0
+        gap: 1rem;
+        width: 100%;
+
     }
+
     .contact-details .social {
-        margin-right: 2rem;
-        margin-left: -1rem;
+        font-size: 0.75rem;
+        border-radius: 0.3rem;
     }
+
+    .contact-details .social .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .contact-details .emailIcon,
+    .contact-details .linkedinIcon,
+    .contact-details .githubIcon {
+        font-size: 2rem;
+    }
+    .contactform {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:460px) {
+    .contact-content {
+        flex-direction: column-reverse;
+    }
+
+    .contact-container .section-title {
+        font-size: 1.25rem;
+    }
+
+    .contact-details {
+        gap: 1rem;
+        width: 100%;
+
+    }
+
+    .contact-details .social {
+        height: 4.5rem;
+        border-radius: 0.3rem;
+        font-size: 0.85rem;
+    }
+
+    .contact-details .social .icon {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+
+    .contact-details .emailIcon,
+    .contact-details .linkedinIcon,
+    .contact-details .githubIcon {
+        font-size: 1.75rem;
+    }
+
 }
