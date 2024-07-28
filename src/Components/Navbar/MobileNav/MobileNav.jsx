@@ -7,7 +7,6 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
     <>
       <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
         <div className='mobile-menu-container'>
-          {/* Use a button if this is not a navigable link */}
           <button className='portfolio' onClick={() => window.location.href = '#portfolio'}>Portfolio</button>
           <ul>
             <li>
@@ -20,7 +19,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               <a href="#experience" className='menu-item'>Work Experience</a>
             </li>
             <li>
-              <a href="#projects" className='menu-item'>Projects</a>
+              <a href="https://github.com/UrvashiSharma30" className='menu-item'>Projects</a>
             </li>
             <li>
               <a href="#contact-me" className='menu-item'>Contact Me</a>
